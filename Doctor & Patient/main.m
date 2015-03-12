@@ -7,11 +7,27 @@
 //
 
 #import <Foundation/Foundation.h>
+#import "Patient.h"
+#import "Doctor.h"
+#import "Condition.h"
+#import "Recommendation.h"
 
 int main(int argc, const char * argv[]) {
     @autoreleasepool {
-        // insert code here...
-        NSLog(@"Hello, World!");
+        
+        Patient *patient = [[Patient alloc] initWithNameAgeSexandEligibility:@"Shahin" patientAge:32 sex:true hasHealthCard:true ill:true];
+        Doctor *doctor = [[Doctor alloc] initWithNameSpecializationAndAvailability:@"Z" specialization:@"Family Physician" availability:true];
+        Condition *symptoms = [[Condition alloc] init];
+        
+        [patient seeDoctor];
+        [patient provideName];
+        
+        [doctor addToPatientList:patient];
+        [doctor sayGreeting:patient];
+        
+        [patient provideSymptom];        
+        [doctor provideRecommendation:patient];
+        
     }
     return 0;
 }
