@@ -19,7 +19,7 @@
 @property (nonatomic, assign) bool isIll;
 @property (nonatomic, weak) NSString *symptom;
 
--(instancetype) initWithNameAgeSexandEligibility:(NSString*)name patientAge:(int)age sex:(bool)sex hasHealthCard:(bool)eligible ill:(bool)ill;
+-(instancetype) initWithName:(NSString*)name age:(int)age sex:(bool)sex elibiility:(bool)eligiblity ill:(bool)ill;
 
 -(void) seeDoctor;
 -(NSString*) provideName;

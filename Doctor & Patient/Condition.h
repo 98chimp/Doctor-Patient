@@ -10,7 +10,7 @@
 
 @interface Condition : NSObject
 
-//@property (nonatomic, weak) NSArray *possibleSymptoms;
+@property (nonatomic, weak) NSArray *possibleSymptoms;
 
 +(NSArray*) possibleSymptoms;
 

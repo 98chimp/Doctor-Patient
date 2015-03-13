@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>IDESourceControlProjectFavoriteDictionaryKey</key>
+	<false/>
+	<key>IDESourceControlProjectIdentifier</key>
+	<string>23C351D9-B968-47DB-A4AA-FC12128DFD2A</string>
+	<key>IDESourceControlProjectName</key>
+	<string>Doctor &amp; Patient</string>
+	<key>IDESourceControlProjectOriginsDictionary</key>
+	<dict>
+		<key>D97FFEDA0321B24C65F6097CC2062242BA9307CA</key>
+		<string>https://github.com/98chimp/Doctor-Patient.git</string>
+	</dict>
+	<key>IDESourceControlProjectPath</key>
+	<string>Doctor &amp; Patient.xcodeproj</string>
+	<key>IDESourceControlProjectRelativeInstallPathDictionary</key>
+	<dict>
+		<key>D97FFEDA0321B24C65F6097CC2062242BA9307CA</key>
+		<string>../..</string>
+	</dict>
+	<key>IDESourceControlProjectURL</key>
+	<string>https://github.com/98chimp/Doctor-Patient.git</string>
+	<key>IDESourceControlProjectVersion</key>
+	<integer>111</integer>
+	<key>IDESourceControlProjectWCCIdentifier</key>
+	<string>D97FFEDA0321B24C65F6097CC2062242BA9307CA</string>
+	<key>IDESourceControlProjectWCConfigurations</key>
+	<array>
+		<dict>
+			<key>IDESourceControlRepositoryExtensionIdentifierKey</key>
+			<string>public.vcs.git</string>
+			<key>IDESourceControlWCCIdentifierKey</key>
+			<string>D97FFEDA0321B24C65F6097CC2062242BA9307CA</string>
+			<key>IDESourceControlWCCName</key>
+			<string>Doctor%20&amp;%20Patient</string>
+		</dict>
+	</array>
+</dict>
+</plist>

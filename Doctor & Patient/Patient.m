@@ -10,14 +10,14 @@
 
 @implementation Patient
 
--(instancetype) initWithNameAgeSexandEligibility:(NSString*)name patientAge:(int)age sex:(bool)sex hasHealthCard:(bool)eligible ill:(bool)ill {
+-(instancetype) initWithName:(NSString*)name age:(int)age sex:(bool)sex elibiility:(bool)eligiblity ill:(bool)ill {
     self = [super init];
     
     if (self) {
         self.patientName = name;
         self.patientAge = age;
         self.sex = sex;
-        self.hasHealthCard = eligible;
+        self.hasHealthCard = eligiblity;
         self.isIll = ill;
     }
     return self;
@@ -35,8 +35,8 @@
 }
 
 -(NSString*) provideSymptom {
-    NSUInteger randomIndex = arc4random() % [Condition.possibleSymptoms count];
-    NSString *symptom = [Condition.possibleSymptoms objectAtIndex: randomIndex];
+    NSUInteger randomIndex = arc4random() % [[Condition possibleSymptoms] count];
+    NSString *symptom = [[Condition possibleSymptoms] objectAtIndex: randomIndex];
     NSLog(@"%@", symptom);
     self.symptom = symptom;
     return symptom;

@@ -16,7 +16,7 @@
 @property (nonatomic, weak) NSString *doctorSpecialization;
 @property (nonatomic, assign) bool isAvailable;
 
--(instancetype) initWithNameSpecializationAndAvailability:(NSString*)name specialization:(NSString*)specialization availability:(bool)isAvailable;
+-(instancetype) initWithName:(NSString*)name specialization:(NSString*)specialization availability:(bool)availability;
 
 -(void) addToPatientList:(Patient *)patient;
 -(void) sayGreeting:(Patient *)patient;

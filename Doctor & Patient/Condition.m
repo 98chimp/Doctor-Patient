@@ -7,22 +7,13 @@
 //
 
 #import "Condition.h"
+#import "Recommendation.h"
 
 @implementation Condition
 
 +(NSArray*) possibleSymptoms {
-    NSArray *possibleSymptoms = [NSArray arrayWithObjects:
-                                 @"I hava a headache.",
-                                 @"I have muscle pain.",
-                                 @"I have insomnia.",
-                                 @"I see dead people.",
-                                 @"I have chest pain.",
-                                 @"I have shortness of breath.",
-                                 @"I have difficulty breathing.",
-                                 @"My urine tastes sweet.",
-                                 @"It hurts when I do this.",
-                                 nil];
-    return possibleSymptoms;
+    NSArray *possibleSymptoms = [[Recommendation recommendations] allKeys];
+return possibleSymptoms;
 }
 
 @end

@@ -13,12 +13,12 @@
     NSMutableArray *_patientList;
 }
 
-- (instancetype)initWithNameSpecializationAndAvailability:(NSString*)name specialization:(NSString*)specialization availability:(bool)isAvailable {
+- (instancetype)initWithName:(NSString*)name specialization:(NSString*)specialization availability:(bool)availability {
     self = [super init];
     if (self) {
         self.doctorName = name;
         self.doctorSpecialization = specialization;
-        self.isAvailable = isAvailable;
+        self.isAvailable = availability;
     }
     return self;
 }

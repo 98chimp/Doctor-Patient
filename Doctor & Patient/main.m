@@ -15,15 +15,15 @@
 int main(int argc, const char * argv[]) {
     @autoreleasepool {
         
-        Patient *patient = [[Patient alloc] initWithNameAgeSexandEligibility:@"Shahin" patientAge:32 sex:true hasHealthCard:true ill:true];
-        Doctor *doctor = [[Doctor alloc] initWithNameSpecializationAndAvailability:@"Z" specialization:@"Family Physician" availability:true];
-        Condition *symptoms = [[Condition alloc] init];
+        Patient *patient = [[Patient alloc] initWithName:@"Shahin" age:32 sex:true elibiility:true ill:true];
+        Doctor *doctor = [[Doctor alloc] initWithName:@"Z" specialization:@"Family Physician" availability:true];
         
         [patient seeDoctor];
         [patient provideName];
         
         [doctor addToPatientList:patient];
         [doctor sayGreeting:patient];
+        [doctor askForSymptoms];
         
         [patient provideSymptom];        
         [doctor provideRecommendation:patient];

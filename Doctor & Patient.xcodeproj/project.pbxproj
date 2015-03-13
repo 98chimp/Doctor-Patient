@@ -257,6 +257,7 @@
 				EBF3581C1AB20C570063AF6B /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
